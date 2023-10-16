@@ -10,6 +10,10 @@ header{
 li{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .menu{
     margin: 5px;
     display: flex;
@@ -21,6 +25,12 @@ li{
 .menu li{
     border: solid 1px;
     width: 20%;
+
+}
+li:hover{
+    background-color: goldenrod;
+    transition: 1s;
+    color:goldenrod;
 }
 
 main{
