@@ -40,3 +40,6 @@ footer{
     height: 5vh;
     flex-basis: 100%;
 }
+img{
+    width: 100%;
+}
