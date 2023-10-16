@@ -9,14 +9,13 @@ header{
 li{
     list-style: none;
 }
-ul{
-    flex-basis: 100%;
-}
 .menu{
     margin: 5px;
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-basis: 100%;
+    text-align: center;
 }
 .menu li{
     border: solid 1px;
@@ -42,4 +41,17 @@ footer{
 }
 img{
     width: 100%;
+}
+.perso1, .perso2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.perso1 *, .perso2 * {
+    flex-basis: 45%;
+    margin: 0.2em;
+    flex-grow: 1;
+}
+
+ul img{
+    width: 1em;
 }
